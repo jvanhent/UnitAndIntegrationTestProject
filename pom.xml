@@ -59,9 +59,18 @@
                 <version>3.0.1</version>
                 <configuration>
                     <!-- Enable integration tests during release:perform -->
-                    <arguments>-DskipITs=false</arguments>
+                    <releaseProfiles>release-its</releaseProfiles>
                 </configuration>
             </plugin>
         </plugins>
     </build>
+
+    <profiles>
+        <profile>
+            <id>release-its</id>
+            <properties>
+                <skipITs>false</skipITs>
+            </properties>
+        </profile>
+    </profiles>
 </project>
