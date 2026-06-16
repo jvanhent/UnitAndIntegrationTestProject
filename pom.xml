@@ -4,7 +4,7 @@
 
     <groupId>com.example</groupId>
     <artifactId>unit-and-integration-test-project</artifactId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -18,7 +18,7 @@
         <connection>scm:git:git@github.com:jvanhent/UnitAndIntegrationTestProject.git</connection>
         <developerConnection>scm:git:git@github.com:jvanhent/UnitAndIntegrationTestProject.git</developerConnection>
         <url>https://github.com/jvanhent/UnitAndIntegrationTestProject</url>
-      <tag>unit-and-integration-test-project-1.0</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <dependencies>
