@@ -4,7 +4,7 @@
 
     <groupId>io.github.jvanhent</groupId>
     <artifactId>unit-and-integration-test-project</artifactId>
-    <version>1.7-SNAPSHOT</version>
+    <version>1.8-SNAPSHOT</version>
 
     <name>Unit and Integration Test Project</name>
     <description>A simple calculator project to demonstrate unit and integration testing.</description>
