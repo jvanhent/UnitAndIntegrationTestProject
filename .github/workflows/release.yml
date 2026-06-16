@@ -26,9 +26,9 @@ jobs:
         java-version: '17'
         distribution: 'corretto'
         cache: 'maven'
-        server-id: ossrh
-        server-username: OSSRH_USERNAME
-        server-password: OSSRH_PASSWORD
+        server-id: central
+        server-username: CENTRAL_USERNAME
+        server-password: CENTRAL_PASSWORD
         gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
         gpg-passphrase: GPG_PASSPHRASE
         
@@ -37,6 +37,6 @@ jobs:
       run: mvn -B release:prepare release:perform -Dgoals=deploy
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        OSSRH_USERNAME: ${{ secrets.OSSRH_USERNAME }}
-        OSSRH_PASSWORD: ${{ secrets.OSSRH_PASSWORD }}
+        CENTRAL_USERNAME: ${{ secrets.CENTRAL_USERNAME }}
+        CENTRAL_PASSWORD: ${{ secrets.CENTRAL_PASSWORD }}
         GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
