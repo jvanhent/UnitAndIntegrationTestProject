@@ -35,6 +35,10 @@
     <scm>
         <connection>scm:git:git@github.com:jvanhent/UnitAndIntegrationTestProject.git</connection>
         <developerConnection>scm:git:git@github.com:jvanhent/UnitAndIntegrationTestProject.git</developerConnection>
+        <url>https://github.com/jvanhent/UnitAndIntegrationTestProject</url>
+        <tag>HEAD</tag>
+    </scm>
+
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
